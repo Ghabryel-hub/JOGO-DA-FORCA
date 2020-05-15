@@ -1,0 +1,181 @@
+body{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90vh;
+    background-color: rgb(96, 97, 97);
+}
+
+/*TECLADO*/
+.teclado{
+    display: flex;
+    width: 190px;
+    height: 205px;
+    margin-top: 30px;
+    
+}
+
+.ordem_letras{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:100%;
+    
+}
+
+.letras{
+    background-color: rgba(75, 73, 73, 0.267);
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    margin-left: 3px;
+    border: none;
+    text-align: center;
+    color: #fff;
+}
+
+._arrumar{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+
+/*boneco*/
+.corpo{
+    position: absolute;
+    top: 175px;
+    left: 10px;
+    display: block;
+
+}
+
+.cabeca{
+    position: absolute;
+    top: 200px;
+    display: ;
+    width: 80px;
+    height: 80px;
+}
+
+.corpo_boneco{
+    position: absolute;
+    top: 296px;
+    left: 1px;
+    display: ;
+    width: 100px;
+    height: 100px;
+}
+
+.braco_dir{
+    position: absolute;
+    top: 310px;
+    left: 46px;
+    display: ;
+    width: 70px;
+    height: 70px;
+}
+
+.braco_esq{
+    position: absolute;
+    top: 310px;
+    left: -15px;
+    display: ;
+    width: 70px;
+    height: 70px;
+}
+
+.perna_dir{
+    position: absolute;
+    top: 370px;
+    left: 20px;
+    display: ;
+    width: 80px;
+    height: 80px;
+}
+
+.perna_esq{
+    position: absolute;
+    top: 370px;
+    left: 1.5px;
+    display: ;
+    width: 80px;
+    height: 80px;
+}
+
+/*DIGITA PALAVRA*/
+
+.let{
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    margin-left: 3px;
+    border: none;
+    text-align: center;
+}
+
+._corpo{
+    position: absolute;
+    top: -19px;
+    left: -10px;
+}
+
+
+
+
+/*PALAVRA*/ 
+
+.palavra{
+    display: flex;
+    flex-direction: row;
+}
+
+#l1{
+    display: none;
+}
+#l2{
+    display: none;
+}
+
+#l3{
+    display: none;
+}
+#l4{
+    display: none;
+}
+
+#l5{
+    display: none;
+}
+
+#l6{
+    display: none;
+}
+
+#l7{
+    display: none;
+}
+
+#l8{
+    display: none;
+}
+
+#l9{
+    display: none;
+}
+
+#l10{
+    display: none;
+}
+#l11{
+    display: none;
+}
+
+#l12{
+    display: none;
+}
+
+
+
